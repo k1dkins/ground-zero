@@ -6,3 +6,5 @@ popd
 pushd %1
 md src
 popd
+
+echo %1 log>%1\data\logs\log.txt
