@@ -7,5 +7,5 @@ pushd %1
 md src
 popd
 
-echo %1 log>%1\data\logs\log.txt
+type templates\log_template.txt >> %1\data\logs\log.txt
 type templates\main_template.cpp >> %1\src\main.cpp
